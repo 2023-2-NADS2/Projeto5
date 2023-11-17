@@ -336,32 +336,27 @@ export default function Zigzag() {
 
 
           
-            <form>
-
-
-              
+    <form action="https://formsubmit.co/atendimento@constallationcorretora.com.br" method="POST">              
    <h1 className="h2 mb-4 text-center">Fale conosco ☎️</h1>
   <div className="mb-6">
     <label htmlFor="name" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">😊 Digite seu nome:</label>
-    <input type="name" id="name" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-96 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Guilherme Medeiros" required />
+    <input type="name" id="name" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-96 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" name="Nome" placeholder="Nome" required />
   </div>
   <div className="mb-6">
     <label htmlFor="email" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">✉️ Digite seu email: </label>
-    <input type="email" id="email" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-96 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="name@flowbite.com" required />
+    <input type="email" id="email" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-96 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" name="E-mail" placeholder="exemplo@email.com" required />
   </div>
   <div className="mb-6">
     <label htmlFor="number" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">📞 Digite seu telefone: </label>
-    <input type="tel" id="phone" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-96 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="(11) 99999-9999" required />
+    <input type="tel" id="phone" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-96 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" name="Número" placeholder="(11) 99999-9999" required />
   </div>
   <div className="mb-6">
-  <label htmlFor="number" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Digite sua duvida: </label>
-  <textarea id="message"  className="block p-2.5 w-96 text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Gostaria de saber mais sobre seguros..."></textarea>
+  <label htmlFor="number" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">🤔 Digite sua duvida: </label>
+  <textarea id="message"  className="block p-2.5 w-96 text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" name="Duvida" placeholder="Gostaria de saber mais sobre seguros..."></textarea>
   </div>
   <div className="flex items-start mb-6">
     <button type="submit" className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-96 sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Enviar</button>
-  </div>
-  
- 
+  </div> 
 </form>
 
                   
